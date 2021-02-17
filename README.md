@@ -1,5 +1,5 @@
-# Orthogonalized Forier Polynomials for Signal Approximation and Transfer
-This repository contains the code implementing the paper *Orthogonalized Forier Polynomials for Signal Approximation and Transfer*, authored by Filippo Maggioli, Simone Melzi, Michael Bronstein, Maks Ovsjanikov and Emanuele Rodolà.  
+# Orthogonalized Fourier Polynomials for Signal Approximation and Transfer
+This repository contains the code implementing the paper *Orthogonalized Fourier Polynomials for Signal Approximation and Transfer*, authored by Filippo Maggioli, Simone Melzi, Michael Bronstein, Maks Ovsjanikov and Emanuele Rodolà.  
 
 The paper is available at ... (available soon)  
 
