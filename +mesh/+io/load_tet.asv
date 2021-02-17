@@ -1,0 +1,30 @@
+function M = load_tet(filename)
+
+    node = strcat(filename, ".node");
+    ele = strcat(filename, ".ele");
+    
+    % Read the vertices
+    fid = fopen(node);
+    % First line contains informations
+    vals = fscanf(fid, "%d  %d  %d  %d\n", [4 1]);
+    M.Vn = vals(1);
+    dim = vals(2);
+    attr = vals(3);
+    prop = vals(4);
+    format = "%d    ";
+    for i = 1:(dim + attr + prop)
+        format = strcat(format, "%f");
+        if i < (dim + attr + prop)
+            format = strcat(format, "  ");
+        else
+            format = strcat(format, "\n");
+        end
+    end
+    M.V = fscanf(fid, format, [(1 + dim + attr + prop) M.Vn]);
+    M.V = M.V(2:4, :)';
+    
+    
+    
+    fclose(fid);
+end
+
