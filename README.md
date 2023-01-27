@@ -1,7 +1,7 @@
 # Orthogonalized Fourier Polynomials for Signal Approximation and Transfer
 This repository contains the code implementing the paper *Orthogonalized Fourier Polynomials for Signal Approximation and Transfer*, authored by Filippo Maggioli, Simone Melzi, Michael Bronstein, Maks Ovsjanikov and Emanuele Rodolà.  
 
-The paper is available at ... (available soon)  
+The paper is available at this [link](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.142645).  
 
 ## Requirements
 You need a working installation of *MATLAB*. The code has been developed and tested with *MATLAB 2019b*, so there is no guarantee it works on other distribution.  
